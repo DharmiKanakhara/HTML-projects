@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            display: flexbox;
+            background: white;
+            border: 1px solid black;
+            border-left: none;
+            width: fit-content;
+        }
+        nav a{
+            padding: 0 94.1px;
+            border-left: 1px solid black;
+        }
+        img{
+            width: 100%;
+            height: 300px;
+            margin: 0;
+        }
+        .lg{
+            background: red;
+        }
+        h5{
+            background: palevioletred;
+            margin: 0;
+            text-align: center;
+        }
+        .cont{
+            height: 300px;
+            width: 100%;
+            background-image: url(download.jpeg);
+            background-size: 100% 300px;
+            text-align: center;
+            color: white;
+            background: rgba(rgb(216, 25, 25), rgb(103, 228, 103), rgb(41, 41, 119), 0.2);
+        }
+        h1 {
+            padding: 130px 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .form table{
+            width: 100%;
+            border: 1px solid black;
+        }
+        td{
+            border: 1px solid black;
+            background: rgb(127, 199, 238);
+        }
+        .video{
+            width: 55%;
+            height: 450px;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <a href="">home</a>
+        <a href="">about</a>
+        <a href="">contact</a>
+        <a href="">help</a>
+        <a href="">store</a>
+        <a href="" class="lg">login</a>
+    </nav>
+    <div>
+        <img src="Screenshot (39).png" alt="">
+        <h5>contact-us-page</h5>
+        <div class="cont con">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="form">
+        <form method="post">
+            <table>
+                <tr>
+                    <td>first-name <input type="text" placeholder="enter your name"></td>
+                    <td>last-name <input type="text" placeholder="enter your name"></td>
+                </tr>
+                <tr>
+                    <td>email-id <input type="email" placeholder="enter your mail id"></td>
+                    <td>Phone-no <input type="text" placeholder="enter your phone number"></td>
+                </tr>
+                <tr>
+                    <td>city <select>>
+                        <option value="Ahemdabad">Ahemdabad</option>
+                        <option value="Rajkot">Rajkot</option>
+                        <option value="Jamnagar">Jamnagar</option>
+                        <option value="Surat">Surat</option>
+                    </select></td>
+                    <td>
+                        Gender <input type="radio" name="gender">Male
+                         <input type="radio" name="gender">Female
+                         <input type="radio" name="gender">Other
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2173.5159402672316!2d72.55723971742921!3d23.025663372972573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84faa5a36071%3A0x9af325a448f09478!2sTOPS%20Technologies!5e0!3m2!1sen!2sin!4v1731072071200!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Y9pgsPW-KIE?si=6tmahzP19iUzBtYw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+    </div>
+    </div>
+</body>
+</html>

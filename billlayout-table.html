@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bill layout using table</title>
+    <style>
+        table{
+            background: rgb(184, 248, 248);
+        }
+        table,td{
+            border: 1px solid black;
+        }
+        td{
+            padding: 15px;
+            width: 120px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="2">Invoice #9876543210</td>
+            <td colspan="2">15 September 2020</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+            Pay to: <br>
+            Acme Billing Co. <br>
+            23 Main St. <br>
+            Cityville, NA 12345
+            </td>
+            <td colspan="2">
+                    Customer: <br>
+                    John Smith <br>
+                    321 Willow Way <br>
+                     Southeast Northwestershire, MA 54321                                                                  
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+               Name/Description<br>
+                Paperclips <br>
+                Staples (box)
+                
+            </td>
+            <td>
+               Qty. <br>
+                    2000 <br>
+                  200 <br>
+            </td>
+            <td>
+                @  <br>
+                0.02 <br>
+                2.00 <br>
+                
+            </td>
+            <td>
+                Cost <br>
+                20.00 <br>
+                200.00 <br>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3"><b>Subtotal</b></td>
+            <td>220.00</td>
+        </tr>
+        <tr>
+            <td colspan="2">Tax</td>
+            <td>9%</td>
+            <td>19.80</td>
+        </tr>
+        <tr>
+            <td colspan="3"><b>Grand Total</b></td>
+            <td>239.80</td>
+        </tr>
+    </table>
+</body>
+</html>
